@@ -1,3 +1,4 @@
+import 'package:bmi_calculator/constants/design-system.dart';
 import 'package:flutter/material.dart';
 
 class ChooseGenderWidget extends StatelessWidget {
@@ -16,10 +17,7 @@ class ChooseGenderWidget extends StatelessWidget {
         SizedBox(
           height: 15,
         ),
-        Text(
-          text,
-          style: TextStyle(fontSize: 18, color: Color(0xFF8D8E98)),
-        )
+        Text(text, style: globalCardTextStyle)
       ],
     );
   }
